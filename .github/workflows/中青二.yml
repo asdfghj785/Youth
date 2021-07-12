@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     env:
-      YOUTH_READ: ${{ secrets.YOUTH_READ2-1 }}
-      YOUTH_READ2: ${{ secrets.YOUTH_READ2-2 }}
-      YOUTH_READ3: ${{ secrets.YOUTH_READ3-3 }}
-      YOUTH_READ4: ${{ secrets.YOUTH_READ4-4 }}
-      YOUTH_READ5: ${{ secrets.YOUTH_READ5-5 }}
+      YOUTH_READ: ${{ secrets.YOUTH_READ2_1 }}
+      YOUTH_READ2: ${{ secrets.YOUTH_READ2_2 }}
+      YOUTH_READ3: ${{ secrets.YOUTH_READ3_3 }}
+      YOUTH_READ4: ${{ secrets.YOUTH_READ4_4 }}
+      YOUTH_READ5: ${{ secrets.YOUTH_READ5_5 }}
     steps:
       - name: Checkout
         uses: actions/checkout@v1
