@@ -3,7 +3,7 @@ name: 中青每日任务二
 on:
   workflow_dispatch:
   schedule:
-     - cron: '0 0 5,14,23 * * ?'
+     - cron: '0 5,14,23 * * *'
   watch:
     types: started
 
